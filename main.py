@@ -69,6 +69,7 @@ while True:
                 "content":message.content,
             })
             print("AI:")
+
             print(message.content)
             break
 
@@ -100,16 +101,5 @@ while True:
 
 
 
-    # messages.append(
-    #     {"role": "assistant", "content": full_response},
-    # )
 
-    # full_response = ""
-    # for chunk in response:
-    #     if chunk.choices and chunk.choices[0].delta.content:
-    #         text = chunk.choices[0].delta.content
-    #         for char in text:
-    #             print(char, end="", flush=True)
-    #             full_response += char
-    #             time.sleep(0.005)
 
