@@ -1,4 +1,4 @@
-def calculate(a:float,b:float,operation:float):
+def calculate(a: float, b: float, operation: str):
     if operation == "add":
         return a+b
     elif operation == "sub":
