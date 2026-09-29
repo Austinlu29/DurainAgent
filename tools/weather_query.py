@@ -23,9 +23,6 @@ def get_weather(city):
 
     location = geo_data["results"][0]
 
-    print(location)
-
-
     latitude = location["latitude"]
     longitude = location["longitude"]
 
